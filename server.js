@@ -28,6 +28,10 @@ app.get("/api/hello", (req, res) => {
   res.json({ message: "Hello there mister!" });
 });
 
+app.get("/api/chicken", (req, res) => {
+  res.json({ message: "chicken" });
+});
+
 // Mysql api example
 
 app.get("/api/mysql", (req, res) => {
